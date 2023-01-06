@@ -30,5 +30,5 @@ end
 ## RETURN ENCRYPTION AND ORIGINAL ##
 encrypted = str_char_validation(user_string, shift_amount)
 puts("Thank you! Your encrypted sentence is:\n#{encrypted}")
-original_sentence = str_char_validation(encrypted, shift_amount)
+original_sentence = user_string
 puts("Your original sentence was:\n#{original_sentence}")
